@@ -40,7 +40,7 @@ data/WD-singer
 ./experiment.sh configs/<dataset>.sh --process_data <gpu-ID>
 ```
 
-`dataset` is the name of datasets. In our experiments, `dataset` could be `fb15k-237-10`, `fb15k-237-20`, `fb15k-237-50`, `NELL23K` and `WD-singer`. `<gpu-ID>` is a non-negative integer number representing the GPU index.
+`dataset` is the name of datasets. In our experiments, `dataset` could be `fb15k-237-10`, `fb15k-237-20`, `fb15k-237-50`, `nell23k` and `wd-singer`. `<gpu-ID>` is a non-negative integer number representing the GPU index.
 
 ## Pretrain Knowledge Graph Embedding
 
@@ -48,7 +48,7 @@ data/WD-singer
 ./experiment-emb.sh configs/<dataset>-<model>.sh --train <gpu-ID>
 ```
 
-`dataset` is the name of datasets and `model` is the name of knowledge graph embedding model. In our experiments, `dataset` could be `fb15k-237-10`, `fb15k-237-20`, `fb15k-237-50`, `NELL23K` and `WD-singer`, `model` could be `conve`. `<gpu-ID>` is a non-negative integer number representing the GPU index.
+`dataset` is the name of datasets and `model` is the name of knowledge graph embedding model. In our experiments, `dataset` could be `fb15k-237-10`, `fb15k-237-20`, `fb15k-237-50`, `nell23k` and `wd-singer`, `model` could be `conve`. `<gpu-ID>` is a non-negative integer number representing the GPU index.
 
 ## Train
 
